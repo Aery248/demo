@@ -1,14 +1,106 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+    { "id": 0, 
+      "title": "Beef Burger", 
+      "price":24.5, 
+      "review":[
+        {
+          "idReview":"0xr1", 
+          "comment": "Very tasty", 
+          "rating":4
+        }
+      ],
+      "isFavorite":true,
+      "category": "CAT_POPULAR"
+    },
+    { "id": 1, 
+      "title": "Salade Burger", 
+      "price":24.5, 
+      "review":[
+        {
+          "idReview":"0xr2", 
+          "comment": "Very tasty", 
+          "rating":4
+        }
+      ],
+      "isFavorite":true,
+      "category": "CAT_SALAD"
+    },
+    { "id": 2, 
+      "title": "Pizza Burger", 
+      "price":24.5, 
+      "review":[
+        {
+          "idReview":"0xr3", 
+          "comment": "Very tasty", 
+          "rating":4
+        }
+      ],
+      "isFavorite":true,
+      "category": "CAT_PIZZA"
+    },
+    { "id": 3, 
+      "title": "Asian Burger", 
+      "price":24.5, 
+      "review":[
+        {
+          "idReview":"0xr3", 
+          "comment": "Very tasty", 
+          "rating":4
+        }
+      ],
+      "isFavorite":true,
+      "category": "CAT_ASIAN"
+    },
+    { "id": 4, 
+      "title": "Ethernet Burger", 
+      "price":24.5, 
+      "review":[
+        {
+          "idReview":"0xr1", 
+          "comment": "Very tasty", 
+          "rating":4
+        }
+      ],
+      "isFavorite":true,
+      "category": "CAT_ETHERNET"
+    },
+    { "id": 5, 
+      "title": "Kebab Burger", 
+      "price":24.5, 
+      "review":[
+        {
+          "idReview":"0xr1", 
+          "comment": "Very tasty", 
+          "rating":4
+        }
+      ],
+      "isFavorite":true,
+      "category": "CAT_KEBAB"
+    },
+    { "id": 6, 
+      "title": "Icecream Burger", 
+      "price":24.5, 
+      "review":[
+        {
+          "idReview":"0xr1", 
+          "comment": "Very tasty", 
+          "rating":4
+        }
+      ],
+      "isFavorite":true,
+      "category": "CAT_DESSERT"
+    },
+    { "id": 7, 
+      "title": "Drink Burger", 
+      "price":24.5, 
+      "review":[
+        {
+          "idReview":"0xr1", 
+          "comment": "Very tasty", 
+          "rating":4
+        }
+      ],
+      "isFavorite":true,
+      "category": "CAT_DRINK"
+    },
+  ]
