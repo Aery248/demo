@@ -4,6 +4,7 @@
       "id": 0,
       "image_url": "",
       "title": "Beef Burger",
+      "description": "A juicy grilled beef patty topped with fresh lettuce, tomato, cheese, and our special house sauce.",
       "price": 24,
       "reviews": [
         {
@@ -29,6 +30,7 @@
       "id": 1,
       "title": "Cesar Salad Sushi",
       "image_url": "",
+      "description": "A creative fusion of classic Caesar salad flavors wrapped in a fresh sushi roll.",
       "price": 15,
       "reviews": [
         {
@@ -54,6 +56,7 @@
       "id": 2,
       "title": "Margarita",
       "image_url": "",
+      "description": "A timeless pizza with a crispy crust, rich tomato sauce, fresh mozzarella, and basil.",
       "price": 24,
       "reviews": [
         {
