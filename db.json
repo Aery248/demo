@@ -1,29 +1,79 @@
-[
-    { "id": 0, 
-      "title": "Beef Burger", 
-      "price": 24.5, 
-      "review":[
+{
+  "foods": [
+    {
+      "id": 0,
+      "image_url": "",
+      "title": "Beef Burger",
+      "price": 24,
+      "reviews": [
         {
-          "idReview":"0xr1", 
-          "comment": "Very tasty", 
+          "idReview": "0xr1",
+          "comment": "Very tasty",
           "rating": 4
+        },
+        {
+          "idReview": "0xr2",
+          "comment": "Very bad",
+          "rating": 3
+        },
+        {
+          "idReview": "0xr3",
+          "comment": "Délichiousse",
+          "rating": 5
         }
       ],
-      "isFavorite":true,
+      "isFavorite": true,
       "category": "CAT_POPULAR"
     },
     {
-      "id": 1, 
-      "title": "Salade Burger", 
-      "price": 24.5, 
-      "review":[
+      "id": 1,
+      "title": "Cesar Salad Deluxe",
+      "image_url": "",
+      "price": 15,
+      "reviews": [
         {
-          "idReview":"0xr2", 
-          "comment": "Very tasty", 
+          "idReview": "0xr1",
+          "comment": "Very tasty",
           "rating": 4
+        },
+        {
+          "idReview": "0xr2",
+          "comment": "Very bad",
+          "rating": 3
+        },
+        {
+          "idReview": "0xr3",
+          "comment": "Délichiousse",
+          "rating": 5
         }
       ],
-      "isFavorite":true,
+      "isFavorite": true,
       "category": "CAT_SALAD"
+    },
+    {
+      "id": 2,
+      "title": "Margarita",
+      "image_url": "",
+      "price": 24,
+      "reviews": [
+        {
+          "idReview": "0xr1",
+          "comment": "Very tasty",
+          "rating": 4
+        },
+        {
+          "idReview": "0xr2",
+          "comment": "Very bad",
+          "rating": 3
+        },
+        {
+          "idReview": "0xr3",
+          "comment": "Délichiousse",
+          "rating": 5
+        }
+      ],
+      "isFavorite": true,
+      "category": "CAT_PIZZA"
     }
   ]
+}
